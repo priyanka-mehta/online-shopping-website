@@ -19,21 +19,21 @@ export const CartTotals = ({ value }) => {
             </Link>
 
             <h5>
-              <span className="text-title">
+              <span>
                 subtotal :
               </span>
               <strong>$ {cartSubTotal}</strong>
             </h5>
 
             <h5>
-              <span className="text-title">
+              <span>
                 tax :
               </span>
               <strong>$ {cartTax}</strong>
             </h5>
 
             <h5>
-              <span className="text-title">
+              <span>
                 total :
               </span>
               <strong>$ {cartTotal}</strong>
